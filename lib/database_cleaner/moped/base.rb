@@ -3,7 +3,7 @@ require 'database_cleaner/generic/base'
 module DatabaseCleaner
   module Moped
     def self.available_strategies
-      %w[truncation]
+      %w[truncation deletion]
     end
 
     module Base
